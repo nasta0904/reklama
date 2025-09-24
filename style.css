@@ -35,8 +35,9 @@
         }
         
         /* Шапка сайта */
+              /* Шапка сайта */
         header {
-            background: linear-gradient(135deg, var(--primary), #8A84FF);
+            background: linear-gradient(135deg, #27ae60, #2ecc71);
             color: white;
             padding: 20px 0;
             position: fixed;
@@ -45,6 +46,8 @@
             z-index: 1000;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
+        
+    
         
         .header-content {
             display: flex;
@@ -101,7 +104,7 @@
         /* Герой-секция */
         .hero {
             padding: 180px 0 100px;
-            background: linear-gradient(135deg, #6C63FF, #8A84FF);
+            background: linear-gradient(135deg, #27ae60, #2ecc71);
             color: white;
             text-align: center;
             position: relative;
