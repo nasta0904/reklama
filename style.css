@@ -85,8 +85,8 @@
             color: var(--accent);
         }
         
-              .cta-button {
-            background-color: #ff6b35;
+                .cta-button {
+            background-color: #27ae60;
             color: white;
             padding: 10px 20px;
             border-radius: 30px;
@@ -96,9 +96,12 @@
         }
         
         .cta-button:hover {
-            background-color: #e55a2b;
-            transform: translateY(-2px);
+            background-color: #219653;
         }
+        
+        .cta-button:active {
+            background-color: #1e8449;
+        }}
         
         /* Герой-секция */
         .hero {
@@ -149,19 +152,17 @@
         }
         
       
-        .btn-primary {
-            background-color: #ff6b35;
+    .btn-primary {
+            background-color: #27ae60;
             color: white;
         }
         
         .btn-primary:hover {
-            background-color: #e55a2b;
+            background-color: #219653;
         }
-    
         
-        .btn-primary:hover {
-            background-color: #1dc295;
-            transform: translateY(-2px);
+        .btn-primary:active {
+            background-color: #1e8449;
         }
         
         .btn-secondary {
@@ -379,6 +380,10 @@
             margin-left: auto;
             margin-right: auto;
         }
+
+
+
+
         
         /* Футер */
         footer {
